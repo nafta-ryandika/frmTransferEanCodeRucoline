@@ -1,0 +1,189 @@
+/*
+Credits: Bit Repository
+CSS Library: http://www.bitrepositiry.com/
+*/
+
+html, body  { padding: 0; border: 0px none; }
+
+.notification_error
+{
+border: 1px solid #A25965;
+height: auto;
+width: 90%;
+padding: 4px;
+background: #F8F0F1;
+text-align: left;
+-moz-border-radius: 5px;
+}
+
+.notification_ok
+{
+border: 1px #567397 solid;
+height: auto;
+width: 90%;
+padding: 8px;
+background: #f5f9fd;
+text-align: center;
+-moz-border-radius: 5px;
+}
+
+.info_fieldset { -moz-border-radius: 5px; border: 1px #dddddd solid; font: 12px Verdana, Helvetica, Arial, sans-serif; padding: 1px 1px 1px 10px; }
+
+.info_fieldset legend
+{
+border: 1px #dddddd solid; 
+color: black;
+
+font: 12px Verdana;
+
+padding: 2px 10px 2px 10px;
+-moz-border-radius: 3px;
+}
+
+.button
+{
+cursor: pointer;
+border: 1px solid #999999;
+border-top-color: #CCCCCC;
+border-left-color: #CCCCCC;
+width: 100px;
+background: #FFEEBB;
+
+color: #333333;
+
+font: 12px Verdana, Helvetica, Arial, sans-serif;
+
+-moz-border-radius: 3px;
+}
+
+.buttonadd
+{
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-top-color: #CCCCCC;
+  border-left-color: #CCCCCC;
+  width: 100px;
+  background: #FFEEBB;
+  background-image: url(../img/s_okay.png);
+  background-position:left;
+  background-repeat:no-repeat;
+  color: #333333;
+  font: 12px Verdana, Helvetica, Arial, sans-serif;
+  -moz-border-radius: 3px;
+}
+
+.buttonedit
+{
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-top-color: #CCCCCC;
+  border-left-color: #CCCCCC;
+  width: 100px;
+  background: #FFEEBB;
+  background-image: url(../img/b_edit.png);
+  background-position:left;
+  background-repeat:no-repeat;
+  color: #333333;
+  font: 12px Verdana, Helvetica, Arial, sans-serif;
+  -moz-border-radius: 3px;
+}
+
+.buttondelete
+{
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-top-color: #CCCCCC;
+  border-left-color: #CCCCCC;
+  width: 100px;
+  background: #FFEEBB;
+  background-image: url(../img/s_error.png);
+  background-position:left;
+  background-repeat:no-repeat;
+  color: #333333;
+  font: 12px Verdana, Helvetica, Arial, sans-serif;
+  -moz-border-radius: 3px;
+}
+
+.buttonfind
+{
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-top-color: #CCCCCC;
+  border-left-color: #CCCCCC;
+  width: 100px;
+  background: #FFEEBB;
+  background-image: url(../img/b_search.png);
+  background-position:left;
+  background-repeat:no-repeat;
+  color: #333333;
+  font: 12px Verdana, Helvetica, Arial, sans-serif;
+  -moz-border-radius: 3px;
+
+}
+
+.buttongofind
+{
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-top-color: #CCCCCC;
+  border-left-color: #CCCCCC;
+  width: 100px;
+  background: #FFEEBB;
+  background-image: url(../img/s_reload.png);
+  background-position:left;
+  background-repeat:no-repeat;
+  color: #333333;
+  font: 12px Verdana, Helvetica, Arial, sans-serif;
+  -moz-border-radius: 3px;
+
+}
+
+.buttonexport
+{
+  cursor: pointer;
+  border: 1px solid #999999;
+  border-top-color: #CCCCCC;
+  border-left-color: #CCCCCC;
+  width: 100px;
+  background: #FFEEBB;
+  background-image: url(../img/b_export.png);
+  background-position:left;
+  background-repeat:no-repeat;
+  color: #333333;
+  font: 12px Verdana, Helvetica, Arial, sans-serif;
+  -moz-border-radius: 3px;
+
+}
+
+/* Label */
+label  { width: 140px; padding-left: 20px; margin: 5px; float: left; text-align: left; font: 12px Verdana, Helvetica, Arial, sans-serif; }
+
+/* Input, Textarea */
+input, textarea
+{
+/*margin: 5px;*/
+/*padding: 0px;*/
+/*float: left;*/
+
+border: 1px solid #999999;
+border-top-color: #CCCCCC;
+border-left-color: #CCCCCC;
+
+color: #333333;
+
+font: 12px Verdana, Helvetica, Arial, sans-serif;
+
+-moz-border-radius: 3px;
+}
+
+/* BR */
+
+br { clear: left; }
+
+input[type="text"]{
+    text-transform: uppercase;
+}
+
+textarea[type="text"]{
+    text-transform: uppercase;
+}
